@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone - Home</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+        }
+
+        .hero-section {
+            padding: 120px 0;
+        }
+
+        .hero-section h1 {
+            font-weight: 800;
+        }
+
+        .hero-section p {
+            opacity: 0.8;
+        }
+
+        .btn-custom {
+            background-color: #ff9800;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #e68900;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">GameZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-white text-center">
+    <div class="container">
+        <h1 class="display-3">Selamat Datang di GameZone 🎮</h1>
+        <p class="lead mt-3">Website informasi game terbaik dan terbaru 2026</p>
+        <a href="gallery.html" class="btn btn-custom btn-lg mt-4 shadow">
+            Jelajahi Sekarang
+        </a>
+    </div>
+</section>
+
+<!-- Feature Section -->
+<section class="container text-white text-center mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-4 bg-dark rounded-4 shadow">
+                <h4>🔥 Game Trending</h4>
+                <p>Update game yang sedang populer saat ini.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-4 bg-dark rounded-4 shadow">
+                <h4>🎯 Review Jujur</h4>
+                <p>Review lengkap dan terpercaya.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-4 bg-dark rounded-4 shadow">
+                <h4>⚡ Update Cepat</h4>
+                <p>Informasi game terbaru setiap hari.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center p-3 mt-5">
+    <p class="mb-0">© 2026 GameZone | Dibuat dengan Bootstrap</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

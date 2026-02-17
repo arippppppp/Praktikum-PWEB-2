@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone - Gallery</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
+        }
+
+        .hero-section {
+            padding: 120px 0 60px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .game-card {
+            background-color: #1c1c1c;
+            border: none;
+            border-radius: 20px;
+            transition: 0.3s;
+            overflow: hidden;
+            color: white;
+        }
+
+        .game-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .game-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+        }
+
+        .btn-custom {
+            background-color: #ff9800;
+            border: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #e68900;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body class="pt-5">
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">GameZone</a>
+
+    <!-- Tombol garis tiga -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link active" href="gallery.html">Gallery</a></li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a></li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a></li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Hero -->
+<section class="hero-section">
+    <h1 class="display-4 fw-bold">🎮 Game Gallery</h1>
+    <p class="lead">Pilihan game terbaik 2026</p>
+</section>
+
+<!-- Gallery -->
+<section class="container mb-5">
+    <div class="row g-4">
+
+        <!-- Action -->
+        <div class="col-md-4">
+            <div class="card game-card">
+                <img src="Delta Force.jpg" class="card-img-top" alt="Action Game">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Action Game</h5>
+                    <p class="card-text">Game penuh aksi dan tantangan.</p>
+                    <a href="#" class="btn btn-custom">Detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- RPG -->
+        <div class="col-md-4">
+            <div class="card game-card">
+                <img src="Minecraft.jpg" class="card-img-top" alt="RPG Game">
+                <div class="card-body text-center">
+                    <h5 class="card-title">RPG Game</h5>
+                    <p class="card-text">Petualangan dengan cerita mendalam.</p>
+                    <a href="#" class="btn btn-custom">Detail</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Racing -->
+        <div class="col-md-4">
+            <div class="card game-card">
+                <img src="Forza Horizon.jpg" class="card-img-top" alt="Racing Game">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Racing Game</h5>
+                    <p class="card-text">Balapan realistis dan kompetitif.</p>
+                    <a href="#" class="btn btn-custom">Detail</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center p-5">
+    <p class="mb-5">© 2026 GameZone</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
